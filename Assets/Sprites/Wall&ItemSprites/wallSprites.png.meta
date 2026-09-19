@@ -143,9 +143,9 @@ TextureImporter:
       name: wallSprites_0
       rect:
         serializedVersion: 2
-        x: 31
+        x: 0
         y: 64
-        width: 33
+        width: 32
         height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -165,7 +165,7 @@ TextureImporter:
       name: wallSprites_1
       rect:
         serializedVersion: 2
-        x: 64
+        x: 32
         y: 64
         width: 32
         height: 32
@@ -187,8 +187,8 @@ TextureImporter:
       name: wallSprites_2
       rect:
         serializedVersion: 2
-        x: 0
-        y: 32
+        x: 64
+        y: 64
         width: 32
         height: 32
       alignment: 0
@@ -209,7 +209,7 @@ TextureImporter:
       name: wallSprites_3
       rect:
         serializedVersion: 2
-        x: 32
+        x: 0
         y: 32
         width: 32
         height: 32
@@ -231,7 +231,7 @@ TextureImporter:
       name: wallSprites_4
       rect:
         serializedVersion: 2
-        x: 64
+        x: 32
         y: 32
         width: 32
         height: 32
@@ -253,8 +253,8 @@ TextureImporter:
       name: wallSprites_5
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
+        x: 64
+        y: 32
         width: 32
         height: 32
       alignment: 0
@@ -275,7 +275,7 @@ TextureImporter:
       name: wallSprites_6
       rect:
         serializedVersion: 2
-        x: 32
+        x: 0
         y: 0
         width: 32
         height: 32
@@ -294,7 +294,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: wallSprites_7
+      name: wallSprites_8
       rect:
         serializedVersion: 2
         x: 64
@@ -315,6 +315,28 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
+    - serializedVersion: 2
+      name: WallSprites_7
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73a6e3a6247c26e44ba15e2206ccdf95
+      internalID: -1284598867
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     customData: 
     physicsShape: []
@@ -329,6 +351,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
+      WallSprites_7: -1284598867
       wallSprites_0: 7961032493753754447
       wallSprites_1: -280010197791634350
       wallSprites_2: 314422849851810100
@@ -336,8 +359,7 @@ TextureImporter:
       wallSprites_4: 3639113390702547618
       wallSprites_5: -1641832289149773901
       wallSprites_6: -9152734109927094951
-      wallSprites_7: 343442928699772478
-      wallSprites_8: 7184147244739376889
+      wallSprites_8: 343442928699772478
       wallSprites_9: 2994962697680901213
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
