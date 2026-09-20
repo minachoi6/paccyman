@@ -1,44 +1,49 @@
 // using System.Numerics;
 using System;
+using System.Data;
+using Unity.Mathematics;
+using UnityEditor.Experimental.GraphView;
 using UnityEngine;
 
 public class PacGuyCycle : MonoBehaviour
 {
-    private Transform PacGuy;
-    private Vector3 TopRight;
-    private Vector3 BottomRight;
-    private Vector3 BottomLeft;
-    private Vector3 TopLeft;
+    private Vector3[] positions;
+    private int idx;
+    private float t;
     private Vector3 CurrentPos;
+    private Vector3 newPos;
 
-    // private Transform[] transformArray;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
         transform.position.Set(-11.5f,8.5f,0f);
 
-        TopRight = new Vector3(-11.5f,12.5f,0f);
+        idx = 0;
 
-        BottomRight = new Vector3(-11.5f,8.5f,0f);
+        positions = new Vector3[4];
 
-        BottomLeft = new Vector3(-16.5f,8.5f,0f);
+        positions[0] = new Vector3(-11.5f,12.5f,0f);
+        positions[1] = new Vector3(-11.5f,8.5f,0f);
+        positions[2] = new Vector3(-16.5f,8.5f,0f);
+        positions[3] = new Vector3(-16.5f,12.5f,0f);
 
-        TopLeft = new Vector3(-16.5f,12.5f,0f);
+        t = 0f;
+
     }
 
     // Update is called once per frame
     void Update()
     {
         CurrentPos = transform.position;
-
-        Vector3.Lerp(CurrentPos,BottomRight,1/2);
-
         
+        t += Time.fixedDeltaTime;
+        idx = (int)t;
+        Debug.Log("t: " + t + "idx: " + idx);
+        newPos = Vector3.Lerp(positions[idx % 4], positions[(idx + 1) % 4],t % 1.0f);
+
+        transform.position = newPos;
 
 
-        // if (CurrentPos = TopRight)
-        // {
-        //     Vector3.Lerp()
-        // }
     }
+
 }
