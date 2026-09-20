@@ -38,15 +38,9 @@ public class PacGuyCycle : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        // CurrentPos = transform.position;
         
         t += Time.fixedDeltaTime;
         idx = (int)t % 4;
-        // Debug.Log("t: " + t + "idx: " + idx);
-        // newPos = Vector3.Lerp(positions[idx % 4], positions[(idx + 1) % 4],t % 1.0f);
-
-        // transform.position = newPos;
-        // CurrentPos = newPos;
 
             if (idx == 0)  {
 
