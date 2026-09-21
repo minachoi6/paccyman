@@ -3,28 +3,40 @@ using UnityEngine;
 
 public class Bgm : MonoBehaviour
 {
-    public AudioSource audiosource;
+    public AudioSource bgmPlayer;
     public AudioClip introbgm;
-    public AudioClip NormalGhost;
+    public AudioClip normalGhostLoop;
 
+    private float time;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-        audiosource = gameObject.GetComponent<AudioSource>(); 
+
+        time = 0;
+
+        bgmPlayer.PlayOneShot(introbgm);
+    
     }
 
     // Update is called once per frame
     void Update()
     {
-        
+    time += Time.deltaTime;
+    float currentTime = time;
+
+    if (currentTime == 3) {
+
+            bgmPlayer.Stop();
+
+            bgmPlayer.clip = normalGhostLoop;
+            bgmPlayer.loop = true;
+
+            bgmPlayer.Play();
+
     }
 
-    IEnumerator LoopClip()
-    {
-        //play intro bgm
-        yield return new WaitForSeconds(3);
-        
-        //start looping ghost
     }
+
+
 }
