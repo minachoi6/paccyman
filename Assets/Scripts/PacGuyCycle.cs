@@ -9,11 +9,14 @@ using UnityEngine.Rendering;
 
 public class PacGuyCycle : MonoBehaviour
 {
+    public AudioClip move;
+    public AudioSource movesfx;
     private Vector3[] positions;
     private int idx;
     private float t;
     private Vector3 newPos;
     private Animator PacGuy;
+    private Vector3 prevPos;
     private const String xhori = "Horizontal";
     private const String yvert = "Vertical";
 
@@ -24,6 +27,7 @@ public class PacGuyCycle : MonoBehaviour
         PacGuy = gameObject.GetComponent<Animator>();
 
         transform.position.Set(-11.5f,8.5f,0f);
+        prevPos = transform.position;
 
         idx = 0;
 
@@ -42,12 +46,14 @@ public class PacGuyCycle : MonoBehaviour
     void Update()
     {
         
+        
         t += Time.fixedDeltaTime / 2;
         idx = (int)t % 4;
-
   
         PacGuy.SetFloat(xhori,positions[idx + 1].x - positions[idx].x);
         PacGuy.SetFloat(yvert,positions[idx + 1].y - positions[idx].y);
+
+        playsfx();
 
 
             if (idx == 0)  {
@@ -78,6 +84,20 @@ public class PacGuyCycle : MonoBehaviour
 
         }
 
+    }
+    void playsfx()
+    {
+        float moveDis = Vector3.Distance(transform.position,prevPos);
+
+        if (moveDis >= 2.0f)
+        {
+            movesfx.PlayOneShot(move);
+
+            prevPos = transform.position;
+        } else
+        {
+            return;
+        }
     }
 
 
