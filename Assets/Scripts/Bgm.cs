@@ -23,7 +23,7 @@ public class Bgm : MonoBehaviour
     void Update()
     {
     time += Time.deltaTime;
-    float currentTime = time;
+    int currentTime = (int)time;
 
     if (currentTime == 3) {
 
