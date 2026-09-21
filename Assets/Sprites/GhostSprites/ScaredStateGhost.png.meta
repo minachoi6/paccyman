@@ -1,0 +1,362 @@
+fileFormatVersion: 2
+guid: a0520f4073382cd4a8e4bc7c1fc3e8d0
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 5871150061021389712
+    second: ScaredStateGhost_0
+  - first:
+      213: 6992413576426748916
+    second: ScaredStateGhost_1
+  - first:
+      213: 7525418663948232952
+    second: ScaredStateGhost_2
+  - first:
+      213: -6118412672461138266
+    second: ScaredStateGhost_3
+  - first:
+      213: -3451955908775603606
+    second: ScaredStateGhost_4
+  - first:
+      213: 6679814731884438053
+    second: ScaredStateGhost_5
+  - first:
+      213: -3309162579841644375
+    second: ScaredStateGhost_6
+  - first:
+      213: -7163513682327888895
+    second: ScaredStateGhost_7
+  - first:
+      213: -5269996163204675100
+    second: ScaredStateGhost_8
+  - first:
+      213: 2786723981134502970
+    second: ScaredStateGhost_9
+  - first:
+      213: -5189576942691710922
+    second: ScaredStateGhost_10
+  - first:
+      213: -2619278802418074507
+    second: ScaredStateGhost_11
+  - first:
+      213: -703717007141849242
+    second: ScaredStateGhost_12
+  - first:
+      213: 1374100468784725855
+    second: ScaredStateGhost_13
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 32
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WindowsStoreApps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: ScaredStateGhost_0
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 64
+        width: 28
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0936132bfd38a7150800000000000000
+      internalID: 5871150061021389712
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ScaredStateGhost_2
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 64
+        width: 28
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8f8aaba4768af6860800000000000000
+      internalID: 7525418663948232952
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ScaredStateGhost_4
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 64
+        width: 28
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a629e15e3603810d0800000000000000
+      internalID: -3451955908775603606
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ScaredStateGhost_6
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 32
+        width: 28
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9a806849a2e7312d0800000000000000
+      internalID: -3309162579841644375
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ScaredStateGhost_8
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 32
+        width: 22
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4e9838449663dd6b0800000000000000
+      internalID: -5269996163204675100
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ScaredStateGhost_9
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 32
+        width: 22
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a3c959632be6ca620800000000000000
+      internalID: 2786723981134502970
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ScaredStateGhost_11
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 0
+        width: 22
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 57cf8268ec376abd0800000000000000
+      internalID: -2619278802418074507
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ScaredStateGhost_12
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 0
+        width: 22
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 667b8e64c15eb36f0800000000000000
+      internalID: -703717007141849242
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: a3baff7ad13474b4a950b1234bc5fb77
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      ScaredStateGhost_0: 5871150061021389712
+      ScaredStateGhost_1: 6992413576426748916
+      ScaredStateGhost_10: -5189576942691710922
+      ScaredStateGhost_11: -2619278802418074507
+      ScaredStateGhost_12: -703717007141849242
+      ScaredStateGhost_13: 1374100468784725855
+      ScaredStateGhost_2: 7525418663948232952
+      ScaredStateGhost_3: -6118412672461138266
+      ScaredStateGhost_4: -3451955908775603606
+      ScaredStateGhost_5: 6679814731884438053
+      ScaredStateGhost_6: -3309162579841644375
+      ScaredStateGhost_7: -7163513682327888895
+      ScaredStateGhost_8: -5269996163204675100
+      ScaredStateGhost_9: 2786723981134502970
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
