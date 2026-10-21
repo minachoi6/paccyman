@@ -1,8 +1,14 @@
+using System.Runtime.CompilerServices;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using UnityEngine.UI;
 
 public class UIManager : MonoBehaviour
 {
+    public AudioSource sfxPlayer;
+    public AudioClip open;
+    private Text HS;
+    private int HScount;
     void Awake() {
         DontDestroyOnLoad(gameObject);
     }
@@ -19,5 +25,10 @@ public class UIManager : MonoBehaviour
     }
     public void loadLvl1() {
         SceneManager.LoadScene(1);
+        sfxPlayer.PlayOneShot(open);
+    }
+    void highscore()
+    {
+        
     }
 }
