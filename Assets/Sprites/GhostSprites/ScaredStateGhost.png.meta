@@ -155,9 +155,9 @@ TextureImporter:
       name: ScaredStateGhost_0
       rect:
         serializedVersion: 2
-        x: 2
+        x: 0
         y: 64
-        width: 28
+        width: 32
         height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -177,9 +177,9 @@ TextureImporter:
       name: ScaredStateGhost_2
       rect:
         serializedVersion: 2
-        x: 34
+        x: 32
         y: 64
-        width: 28
+        width: 32
         height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -199,9 +199,9 @@ TextureImporter:
       name: ScaredStateGhost_4
       rect:
         serializedVersion: 2
-        x: 66
+        x: 64
         y: 64
-        width: 28
+        width: 32
         height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -221,9 +221,9 @@ TextureImporter:
       name: ScaredStateGhost_6
       rect:
         serializedVersion: 2
-        x: 2
+        x: 0
         y: 32
-        width: 28
+        width: 32
         height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -243,9 +243,9 @@ TextureImporter:
       name: ScaredStateGhost_8
       rect:
         serializedVersion: 2
-        x: 37
+        x: 32
         y: 32
-        width: 22
+        width: 32
         height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -265,9 +265,9 @@ TextureImporter:
       name: ScaredStateGhost_9
       rect:
         serializedVersion: 2
-        x: 69
+        x: 64
         y: 32
-        width: 22
+        width: 32
         height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -287,9 +287,9 @@ TextureImporter:
       name: ScaredStateGhost_11
       rect:
         serializedVersion: 2
-        x: 5
+        x: 0
         y: 0
-        width: 22
+        width: 32
         height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -309,9 +309,9 @@ TextureImporter:
       name: ScaredStateGhost_12
       rect:
         serializedVersion: 2
-        x: 37
+        x: 32
         y: 0
-        width: 22
+        width: 32
         height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
