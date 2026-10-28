@@ -52,7 +52,6 @@ public class PacStudentController: MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
         if (Input.GetKeyDown("w"))
         {
             movement = Vector3.up;
