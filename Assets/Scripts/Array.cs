@@ -37,14 +37,7 @@ public class Array : MonoBehaviour
     };    
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
-    void Start()
-    {
-     Vector3 position = Opos(1,1);
-     Vector3 pos2 = Opos(0,0);
-        Debug.Log("0: " + pos2);
-        Debug.Log(position);
-
-    }
+    void Start() {}
 
     // Update is called once per frame
     void Update()
