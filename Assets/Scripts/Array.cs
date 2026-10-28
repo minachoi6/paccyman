@@ -1,11 +1,8 @@
-using System;
-using System.Data;
-using UnityEditor.Tilemaps;
 using UnityEngine;
-using UnityEngine.Tilemaps;
 
-public class LevelGrid : MonoBehaviour
+public class Array : MonoBehaviour
 {
+    [SerializeField] public Transform origin;
     public int[,] levelMap =
     {
         {1,2,2,2,2,2,2,2,2,2,2,2,2,7,7,2,2,2,2,2,2,2,2,2,2,2,2,1},
@@ -37,36 +34,15 @@ public class LevelGrid : MonoBehaviour
         {2,5,3,4,4,3,5,3,4,4,4,3,5,4,4,5,3,4,4,4,3,5,3,4,4,3,5,2},
         {2,5,5,5,5,5,5,5,5,5,5,5,5,4,4,5,5,5,5,5,5,5,5,5,5,5,5,2},
         {1,2,2,2,2,2,2,2,2,2,2,2,2,7,7,2,2,2,2,2,2,2,2,2,2,2,2,1},
-
-
-    };
-    // int[,] quad2 = {};
-    // int[,] quad3 = {};
-    // int[,] quad4 = {};
-
-    public Tilemap tilemap;
-    //
-    
+    };    
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
-    { 
-
-        tilemap = transform.GetComponent<Tilemap>();
-        // GridLayout grid = transform.GetComponent<GridLayout>();
-        Vector3Int cellPos = tilemap.WorldToCell(transform.position);
-        // levelMap[0,0] = tilemap.GetCellCenterWorld(cellPos);
-
-
-        // for (int rows = 0; rows < levelMap.GetLength(1); rows ++) {
-        //     for (int cols = 0; cols < levelMap.GetLength(0); cols ++)  {
-                
-        //         levelMap[rows,levelMap.GetLength(0) -1 - cols] = quad2[rows,cols]; //flip columns
-        //         levelMap[levelMap.GetLength(1) - 1 - rows,cols] = quad3[rows,cols]; //flip rows
-        //         levelMap[levelMap.GetLength(1) - 1 - rows,levelMap.GetLength(0) -1 - cols] = quad4[rows,cols]; //flip rows&cols
-
-        //     } 
-        // }
+    {
+     Vector3 position = Opos(1,1);
+     Vector3 pos2 = Opos(0,0);
+        Debug.Log("0: " + pos2);
+        Debug.Log(position);
 
     }
 
@@ -74,5 +50,10 @@ public class LevelGrid : MonoBehaviour
     void Update()
     {
         
+    }
+    public Vector3 Opos(int row,int col) {
+        float x = origin.position.x + col;
+        float y = origin.position.y - row;
+     return new Vector3(x,y,origin.position.z);   
     }
 }
